@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AWTRIX affichage connecté ESP32
+title: AWTRIX affichage ESP32
 description: Personnalisation d’un afficheur AWTRIX avec ESP32, données issues d’API et intégration domotique.
 importance: 3
 type: maker
@@ -15,20 +15,25 @@ img: assets/img/maker/awtrix/awtrixmeteo.jpg
   />
 </a>
 
-Ce projet part d’un afficheur **AWTRIX basé sur ESP32**, que j’ai personnalisé afin d’afficher différentes informations utiles au quotidien, la météo, les horaires des transports, la pollution de l'air ou encore la présence de pollen.
-Il me sert également de récupérer de nombreux capteurs, portes ouvertes, fuite d'eau, ou en ces temps de canicules... de savoir précisément **quand** ouvrire la fenètre afin d'aérer. 
+Ce projet part d’un afficheur **AWTRIX basé sur ESP32**, que j’ai personnalisé afin d’afficher différentes informations utiles au quotidien : météo, horaires des transports, pollution de l’air ou encore présence de pollen.
+
+Il me permet également de centraliser les informations provenant de nombreux capteurs : portes ouvertes, fuite d’eau ou, en période de canicule, indication du moment opportun pour ouvrir les fenêtres et aérer.
 
 L’objectif était moins de fabriquer un simple écran que de faire communiquer plusieurs sources de données avec un objet physique : **API, réseau, capteurs et domotique**.
+
+Un projet simple en apparence, mais qui nécessite de faire dialoguer plusieurs systèmes : récupération et traitement de données, appels d’API, automatisations, MQTT et logique de programmation.
 
 ---
 
 ## Données issues d’API
 
-J’ai notamment développé des affichages utilisant des données récupérées depuis différentes API.
+J’ai développé plusieurs affichages reposant sur la récupération et le traitement de données provenant de services externes.
 
-### Météo-France
+### Météo-France et RATP
 
-Récupération et traitement de données météorologiques afin d’afficher directement sur AWTRIX les informations utiles.
+Les données de Météo-France sont récupérées et traitées afin d’afficher directement sur AWTRIX les informations météorologiques utiles.
+
+Le même principe est utilisé avec les données liées aux transports : état des lignes de RER ou de métro, perturbations, ou encore temps d’attente avant l’arrivée du prochain bus à un arrêt.
 
 <a href="{{ '/assets/img/maker/awtrix/meteofranceaffichage.png' | relative_url }}" target="_blank">
   <img
@@ -38,56 +43,52 @@ Récupération et traitement de données météorologiques afin d’afficher dir
   />
 </a>
 
-### RATP
-
-Utilisation de données issues de l’API RATP pour afficher des informations liées aux transports, les problèmes sur la ligne du RER ou du métro ou encore la récupération de l'arrivée du prochain bus à un arrêt
-
-<a href="{{ '/assets/img/maker/awtrix/affichage-api.jpg' | relative_url }}" target="_blank">
-  <img
-    src="{{ '/assets/img/maker/awtrix/affichage-api.jpg' | relative_url }}"
-    alt="Affichage de données issues d'API sur AWTRIX"
-    class="project-image"
-  />
-</a>
-
 ---
 
 ## ESP32 et capteurs
 
-Le projet s’intègre également à plusieurs expérimentations autour de la récupération de **données de capteurs** me permettant de travailler sur la communication entre services réseau et affichage physique.
+Le système récupère également les données de différents capteurs intégrés à mon environnement domotique : température, ouverture de portes, détection de fuite d’eau ou différents états de présence.
+
+Ces données peuvent être croisées afin de produire une information réellement utile. Par exemple, une automatisation compare les températures intérieure et extérieure pour déterminer le moment opportun pour ouvrir les fenêtres en période de forte chaleur.
+
+AWTRIX permet ensuite de rendre ces informations immédiatement visibles, sans avoir à consulter une application ou une interface.
 
 ---
 
 ## Intégration domotique
 
-AWTRIX est intégré à mon environnement **Home Assistant** et peut interagir avec différents services de mon installation domotique.
+AWTRIX est intégré à mon environnement **Home Assistant** et interagit avec différents services de mon installation domotique.
+
+Cette intégration ne se limite pas à la configuration de Home Assistant : elle nécessite de **programmer la logique des automatisations**, de récupérer et transformer les données provenant d’API ou de capteurs, de gérer les échanges MQTT et de définir les conditions déclenchant les différents affichages et notifications.
+
+<a href="{{ '/assets/img/maker/awtrix/ha.png' | relative_url }}" target="_blank">
+  <img
+    src="{{ '/assets/img/maker/awtrix/ha.png' | relative_url }}"
+    alt="Intégration d'AWTRIX dans Home Assistant"
+    class="project-image"
+  />
+</a>
+
+L’intérêt du projet est de pouvoir ajouter progressivement de nouvelles informations ou interactions sans avoir à reconstruire l’ensemble du système.
+
+AWTRIX constitue ainsi l’une des interfaces visibles d’un écosystème plus large mêlant **capteurs, microcontrôleurs, services réseau, automatisations et programmation**.
 
 L’ensemble s’appuie notamment sur :
 
 **ESP32 · MQTT · Home Assistant · API · réseau · capteurs**
 
-L’intérêt du projet est de pouvoir ajouter progressivement de nouvelles informations ou interactions sans avoir à reconstruire l’ensemble du système.
-
 ---
 
 ## Technologies & techniques
 
-**Microcontrôleur**
-
-ESP32
-
 **Programmation / données**
 
-API REST · traitement de données · automatisation
+API REST · récupération et traitement de données · logique conditionnelle · automatisations · intégration de services
 
 **IoT / communication**
 
-MQTT · réseau Wi-Fi · capteurs iOT
+MQTT · réseau Wi-Fi · ESP32 · capteurs IoT
 
 **Domotique**
 
-Home Assistant
-
-**Prototypage**
-
-Configuration · tests · intégration · adaptation
+Home Assistant · automatisations · intégration de capteurs et services externes

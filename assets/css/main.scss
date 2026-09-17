@@ -14,16 +14,130 @@ $max-content-width: {{ site.max_width }};
   "distill",
   "cv";
 
-.project-image {
-  display: block;
-  margin: 1.5rem auto;
-  max-width: 100%;
-  max-height: 300px;
-  width: auto;
+  /* Cartes projets */
+
+/* Cartes projets */
+
+.projects .card {
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 10px;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.projects .card:hover {
+  transform: translateY(-3px);
+  border-color: var(--global-theme-color);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.projects .card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
   height: auto;
+  object-fit: cover;
+  object-position: center;
+}
 
-  border: 1px solid rgba(128, 128, 128, 0.3);
-  border-radius: 4px;
+/* Évite que les liens des cartes héritent d'un soulignement */
 
-  cursor: zoom-in;
+.projects .grid > a,
+.projects .grid-item > a {
+  text-decoration: none;
+}
+
+.bouvet-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.bouvet-gallery a {
+  display: block;
+}
+
+.bouvet-gallery .project-image {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .bouvet-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .bouvet-gallery .project-image {
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+    margin: 1.5rem auto;
+  }
+}
+
+.maker-platforms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.maker-platform {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem 1.2rem;
+
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 10px;
+
+  text-decoration: none !important;
+  transition: transform 0.2s ease,
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.maker-platform:hover {
+  transform: translateY(-3px);
+  border-color: var(--global-theme-color);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.maker-platform-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--global-theme-color);
+  margin-bottom: 0.3rem;
+}
+
+.maker-platform-description {
+  font-size: 0.88rem;
+  opacity: 0.75;
+  line-height: 1.4;
+}
+
+.maker-platform-arrow {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  opacity: 0.6;
+  transition: transform 0.2s ease;
+}
+
+.maker-platform:hover .maker-platform-arrow {
+  transform: translate(2px, -2px);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .maker-platforms {
+    grid-template-columns: 1fr;
+  }
 }
