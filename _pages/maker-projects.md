@@ -7,6 +7,14 @@ nav: true
 nav_order: 2
 horizontal: false
 ---
+<style>
+  .projects .card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+</style>
+---
 
 <p>
   Projets personnels mêlant fabrication, mécanique, CAO, impression 3D,

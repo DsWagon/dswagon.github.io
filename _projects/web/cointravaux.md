@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coin Travaux
-description: Find a contractor before buying a condo !
+description: Find a contractor before buying !
 img: assets/img/projects_preview/coin_travaux.jpg
 importance: 1
 category: project

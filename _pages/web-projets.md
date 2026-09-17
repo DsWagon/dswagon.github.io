@@ -7,7 +7,14 @@ nav: true
 nav_order: 3
 horizontal: false
 ---
-
+<style>
+  .projects .card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+</style>
+---
 <p>
   Projets réalisés lors de ma formation au Wagon et dans le cadre de mes
   expérimentations personnelles en développement web.
