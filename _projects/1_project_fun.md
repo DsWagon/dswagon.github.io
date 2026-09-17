@@ -1,10 +1,12 @@
 ---
 layout: page
 title: An oak bookshelf
+hidden: true
 description: Building a bookshelf
 img: assets/img/projects_preview/etagere_thumbnail.jpg
 importance: 1
 category: fun
+
 ---
 
 This bookshelf is made of oak. It was built in 2023 during the summer after the bootcamp. It takes me 7 days full-time to build it. 2 meters high, 1.15 meter wide and 26 centimeters deep, it has 6 shelves. No screws, no glue, only dovetails. it was quite a challenge to build it. No mistakes were allowed.
