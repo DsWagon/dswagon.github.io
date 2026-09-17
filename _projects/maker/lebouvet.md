@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hors-série Le Bouvet - Impression 3D
-description: Conception, fabrication, tests et rédaction d’un hors-série consacré à l’impression 3D appliquée au travail du bois.
+description: Rédaction d’un hors-série consacré à l’impression 3D appliquée au travail du bois.
 importance: 2
 type: maker
 img: assets/img/maker/lebouvet/couv.jpg
