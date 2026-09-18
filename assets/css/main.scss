@@ -92,6 +92,22 @@ $max-content-width: {{ site.max_width }};
 
 /* Cartes projets */
 
+/* Images dans les pages projets */
+
+.project-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin: 1.5rem auto;
+
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 4px;
+
+  cursor: zoom-in;
+}
+
 .projects .card {
   border: 1px solid rgba(128, 128, 128, 0.25);
   border-radius: 10px;
@@ -114,6 +130,12 @@ $max-content-width: {{ site.max_width }};
   height: auto;
   object-fit: cover;
   object-position: center;
+}
+
+.projects .card-body {
+  width: 248px;
+  height: 260px;
+  box-sizing: border-box;
 }
 
 /* Évite que les liens des cartes héritent d'un soulignement */

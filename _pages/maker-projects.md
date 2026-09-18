@@ -15,7 +15,7 @@ horizontal: false
 
 <p>
   Ces projets me permettent de faire dialoguer
-  <strong>fabrication et informatique</strong> :
+  <strong>fabrication et informatique, travail manuel et intellectuel</strong> :
   mécanique, CAO, impression 3D, travail du bois, électronique,
   microcontrôleurs et programmation. La démarche reste généralement la même :
   <strong>concevoir, fabriquer, tester, corriger et recommencer</strong>
@@ -25,9 +25,15 @@ horizontal: false
 <p>
   Les projets présentés ici ne constituent qu’une sélection.
   Je documente également d’autres réalisations sous forme de pas-à-pas sur
-  <strong>L’Air du Bois</strong>, je partage mes modèles destinés à l’impression 3D
-  sur <strong>MakerWorld</strong>, et mes autres créations permettent de découvrir
-  une facette plus large de mon travail, notamment autour du bois et du mobilier.
+  <a href="https://www.lairdubois.fr/@bingods/pas-a-pas" target="_blank" rel="noopener noreferrer">
+    <strong>L’Air du Bois</strong>
+  </a>,
+  je partage mes modèles destinés à l’impression 3D sur
+  <a href="https://makerworld.com/fr/@BingoDS/upload" target="_blank" rel="noopener noreferrer">
+    <strong>MakerWorld</strong>
+  </a>,
+  et mes autres créations permettent de découvrir une facette plus large de mon travail,
+  notamment autour du bois et du mobilier.
   Les liens vers ces contenus sont disponibles plus bas sur la page.
 </p>
 

@@ -7,6 +7,14 @@ type: maker
 img: assets/img/maker/lebouvet/couv.jpg
 ---
 
+  <a href="{{ '/assets/img/maker/lebouvet/couv.jpg' | relative_url }}" target="_blank">
+    <img
+      src="{{ '/assets/img/maker/lebouvet/couv.jpg' | relative_url }}"
+      alt="Sommaire, hors-série Le Bouvet n°22"
+      class="project-image"
+    />
+  </a>
+
 ## De l’atelier à la publication
 
 Je partage régulièrement mes réalisations sur L’Air du Bois, une plateforme communautaire dédiée au travail du bois et à la fabrication.

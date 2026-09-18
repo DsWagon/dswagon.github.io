@@ -18,17 +18,17 @@ social: true
 
 Ancien professeur d’histoire-géographie puis formé au développement web, je suis aujourd’hui avant tout un **maker**, avec une double culture **fabrication et informatique**.
 
-Depuis une première imprimante 3D en 2017, mes projets ont progressivement mêlé **CAO, impression 3D, travail du bois, mécanique, électronique et programmation**. Ils partent généralement d’un besoin concret : améliorer une machine, fabriquer une pièce inexistante, automatiser une fonction ou simplement expérimenter une idée.
+Depuis une première imprimante 3D en 2017, mes projets ont progressivement mêlé **CAO, impression 3D, travail du bois, mécanique, électronique et programmation**. 
 
 Ma démarche reste simple : **comprendre, concevoir, fabriquer, tester, corriger et recommencer** jusqu’à obtenir quelque chose de réellement fonctionnel.
 
-## Ce que je fais
+### Domaines
 
 - **Fabrication & prototypage** — CAO, impression 3D, mécanique, travail du bois, modification de machines et pièces fonctionnelles.
-- **Code & systèmes** — ESP32, capteurs, API, MQTT, Home Assistant, automatisation et développement web.
+- **Électronique, code & systèmes** — ESP32, capteurs, API, MQTT, Home Assistant, automatisation et développement web.
 - **Documentation & transmission** — auteur d’un hors-série du **Bouvet**, partage de projets sur L’Air du Bois et MakerWorld.
 
-## Me retrouver ailleurs
+### Me retrouver ailleurs
 
 Vous pouvez également retrouver certaines de mes réalisations sur :
 
