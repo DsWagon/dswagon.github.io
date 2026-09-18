@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Restauration SAR Rondy 750
-description: Restauration mécanique, amélioration fonctionnelle et conception de pièces sur mesure pour une scie à ruban Rondy 750.
+title: Restauration scie à ruban Rondy 750
+description: Restauration mécanique, amélioration fonctionnelle et conception de pièces sur mesure.
 importance: 2
 type: maker
 img: assets/img/maker/rondy750/rondy750generale.jpg

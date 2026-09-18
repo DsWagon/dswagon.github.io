@@ -128,7 +128,7 @@ Impression 3D · Travail du bois · Profilés aluminium · CNC · Usinage et ass
 
 **Mécanique**
 
-NEMA 17 · HGR20 · SBR12 · Transmissions · Axes · Guidages linéaires · Fins de course
+NEMA 17 · HGR15 · SBR12 · Transmissions · Axes · Guidages linéaires · Fins de course
 
 **Électronique**
 

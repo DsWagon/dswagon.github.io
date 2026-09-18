@@ -99,13 +99,18 @@ $max-content-width: {{ site.max_width }};
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 300px;
+  max-height: 420px;
   margin: 1.5rem auto;
 
   border: 1px solid rgba(128, 128, 128, 0.25);
   border-radius: 4px;
 
   cursor: zoom-in;
+}
+
+.projects .card-title {
+  font-size: 1.6rem;
+  line-height: 1.15;
 }
 
 .projects .card {
@@ -236,4 +241,12 @@ $max-content-width: {{ site.max_width }};
   .maker-platforms {
     grid-template-columns: 1fr;
   }
+}
+
+footer .container {
+  max-width: 100% !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }

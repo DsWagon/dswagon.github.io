@@ -18,7 +18,7 @@ icon: favicon.png  # the emoji used as the favicon (alternatively, provide image
 
 url: https://dswagon.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -50,7 +50,7 @@ rss_icon: false # set to true to display the rss icon in the navbar
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -105,7 +105,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
 contact_note: >
-  The best way to reach me is by e-mail.
+  Vous pouvez me contacter par e-mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

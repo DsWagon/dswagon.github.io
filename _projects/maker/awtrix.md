@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AWTRIX affichage ESP32
+title: Awtrix affichage ESP32
 description: Personnalisation d’un afficheur AWTRIX avec ESP32, données issues d’API et intégration domotique.
 importance: 3
 type: maker
