@@ -4,16 +4,8 @@ title: Autres projets
 description:   Quelques réalisations complémentaires (non exhaustif)
 importance: 4
 type: maker
-img: assets/img/maker/rondy750/rondy750generale.jpg
+img: assets/img/maker/autresprojets.jpg
 ---
-
-<a href="{{ '/assets/img/maker/autresprojets.jpg' | relative_url }}" target="_blank">
-  <img
-    src="{{ '/assets/img/maker/autresprojets.jpg' | relative_url }}"
-    alt="Autres projets"
-    class="project-image"
-  />
-</a>
 
 <div class="maker-platforms">
 
