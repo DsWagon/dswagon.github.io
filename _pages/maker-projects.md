@@ -8,18 +8,7 @@ horizontal: false
 ---
 
 <p>
-  Je conçois principalement des objets et des systèmes destinés à répondre à
-  des besoins concrets : améliorer une machine, fabriquer une pièce inexistante,
-  automatiser une fonction ou expérimenter une idée.
-</p>
-
-<p>
-  Ces projets me permettent de faire dialoguer
-  <strong>fabrication et informatique, travail manuel et intellectuel</strong> :
-  mécanique, CAO, impression 3D, travail du bois, électronique,
-  microcontrôleurs et programmation. La démarche reste généralement la même :
-  <strong>concevoir, fabriquer, tester, corriger et recommencer</strong>
-  jusqu’à obtenir une solution fonctionnelle.
+Sélection de projets mêlant mécanique, CAO, impression 3D, électronique et programmation. La plupart sont nés d’un besoin d’atelier ou d’une envie d’expérimenter.
 </p>
 
 <p>
@@ -34,7 +23,7 @@ horizontal: false
   </a>,
   et mes autres créations permettent de découvrir une facette plus large de mon travail,
   notamment autour du bois et du mobilier.
-  Les liens vers ces contenus sont disponibles plus bas sur la page.
+  <strong> Les liens vers ces contenus sont disponibles plus bas sur la page. </strong>
 </p>
 
 ---

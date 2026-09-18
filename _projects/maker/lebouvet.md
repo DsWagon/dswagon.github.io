@@ -23,7 +23,7 @@ L’un de mes pas-à-pas, consacré à l’impression 3D dans l'atelier, a renco
 
 J’en ai conçu, fabriqué et testé les réalisations, puis rédigé l’intégralité du numéro.
 
-Le hors-série présente différentes applications concrètes de l’impression 3D dans l’atelier, de la conception de pièces fonctionnelles et d’accessoires à leur fabrication et leur utilisation dans des situations réelles.
+Le **HS n°22 Impression 3D et travail du bois, publié en novembre 2025** présente différentes applications concrètes de l’impression 3D dans l’atelier, de la conception de pièces fonctionnelles et d’accessoires à leur fabrication et leur utilisation dans des situations réelles.
 
 L’objectif était de transformer des expérimentations personnelles en méthodes reproductibles, accessibles et directement utilisables, aussi bien par des amateurs que par des professionnels.
 

@@ -15,9 +15,7 @@ img: assets/img/maker/awtrix/awtrixmeteo.jpg
   />
 </a>
 
-Ce projet part d’un afficheur **AWTRIX basé sur ESP32**, que j’ai personnalisé afin d’afficher différentes informations utiles au quotidien : météo, horaires des transports, pollution de l’air ou encore présence de pollen.
-
-Il me permet également de centraliser les informations provenant de nombreux capteurs : portes ouvertes, fuite d’eau ou, en période de canicule, indication du moment opportun pour ouvrir les fenêtres et aérer.
+Ce projet part d’un afficheur **AWTRIX basé sur ESP32**, que j’ai personnalisé afin d’afficher différentes informations utiles au quotidien : météo, horaires des transports, qualité de l’air ou encore présence de pollen.
 
 L’objectif était moins de fabriquer un simple écran que de faire communiquer plusieurs sources de données avec un objet physique : **API, réseau, capteurs et domotique**.
 

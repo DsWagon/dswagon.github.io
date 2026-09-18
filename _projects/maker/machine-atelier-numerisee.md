@@ -7,8 +7,6 @@ type: maker
 img: assets/img/maker/machine_atelier/vue-generale.jpg
 ---
 
----
-
 <a href="{{ '/assets/img/maker/machine_atelier/vue-generale.jpg' | relative_url }}" target="_blank">
   <img
     src="{{ '/assets/img/maker/machine_atelier/vue-generale.jpg' | relative_url }}"
@@ -17,17 +15,18 @@ img: assets/img/maker/machine_atelier/vue-generale.jpg
   />
 </a>
 
-Ce projet est né d’un besoin très concret : disposer dans mon petit atelier d’une machine compacte, polyvalente, déplacable et adaptée à ma manière de travailler.
+Ce projet est né d’un besoin très concret : disposer dans mon petit atelier d’une machine compacte, polyvalente, déplaçable et adaptée à ma manière de travailler.
 
-J’ai conçu et fabriqué un établi multifonction en **profilés aluminium, contreplaquée pour le dessus**, en intégrant progressivement plusieurs fonctions motorisées et numérisées.
+J’ai conçu et fabriqué un établi multifonction en **profilés aluminium, avec un plateau en contreplaqué**, en intégrant progressivement plusieurs fonctions motorisées et numérisées.
 
 L’objectif n’était pas de reproduire une machine existante, mais de concevoir un système sur mesure, évolutif et réparable, mêlant profilés aluminium, travail du bois, CAO, impression 3D, mécanique, électronique et programmation.
-L’objectif était de créer un système compact, polyvalent et évolutif, intégrant notamment un guide parallèle motorisé, une défonceuse à commande numérique et plusieurs pièces conçues sur mesure.
+
+Le système intègre notamment un guide parallèle motorisé, une défonceuse à commande numérique et plusieurs pièces conçues sur mesure.
 
 <a href="{{ '/assets/img/maker/machine_atelier/vue-desassemblee.jpg' | relative_url }}" target="_blank">
   <img
     src="{{ '/assets/img/maker/machine_atelier/vue-desassemblee.jpg' | relative_url }}"
-    alt="Vue générale assemblage"
+    alt="Vue générale de la machine en cours d'assemblage"
     class="project-image"
   />
 </a>
@@ -36,19 +35,19 @@ L’objectif était de créer un système compact, polyvalent et évolutif, int�
 
 ## Guide parallèle motorisé
 
-Le guide parallèle de la scie est déplacé par deux **moteur pas à pas NEMA 17** associé à un système de guidage linéaire **HGR15** et deux vis sans fin.
-Des **capteurs de fin de course** permettent de sécuriser et référencer les déplacements à chaque démarrage.
+Le guide parallèle de la scie est déplacé par deux **moteurs pas à pas NEMA 17**, associés à un système de guidage linéaire **HGR15** et à deux vis sans fin.
+
+Des **capteurs de fin de course** permettent de sécuriser et de référencer les déplacements à chaque démarrage.
 
 La mécanique, les supports et différentes pièces d’intégration ont été conçus en CAO puis fabriqués ou adaptés pour l’ensemble.
 
 <a href="{{ '/assets/img/maker/machine_atelier/guide-parallele.jpg' | relative_url }}" target="_blank">
   <img
     src="{{ '/assets/img/maker/machine_atelier/guide-parallele.jpg' | relative_url }}"
-    alt="Guide parallèle"
+    alt="Guide parallèle motorisé"
     class="project-image"
   />
 </a>
-
 
 ---
 
@@ -61,14 +60,14 @@ Le mécanisme utilise notamment :
 - un moteur **NEMA 17** ;
 - des guidages linéaires ;
 - une vis de transmission ;
-- des pièces réalisées à la **CNC** afin d'avoir un excellent positionnement de la visserie
+- des pièces réalisées à la **CNC** afin d’obtenir un positionnement précis de la visserie.
 
 Cette partie du projet a demandé plusieurs essais afin d’obtenir un déplacement suffisamment fiable et reproductible.
 
 <a href="{{ '/assets/img/maker/machine_atelier/defonceuse.jpg' | relative_url }}" target="_blank">
   <img
     src="{{ '/assets/img/maker/machine_atelier/defonceuse.jpg' | relative_url }}"
-    alt="Installation défonceuse"
+    alt="Installation de la défonceuse motorisée"
     class="project-image"
   />
 </a>
@@ -77,8 +76,7 @@ Cette partie du projet a demandé plusieurs essais afin d’obtenir un déplacem
 
 ## Électronique et contrôle
 
-
-Pour piloter l’ensemble, j’ai détourné une **carte MKS DLC32**, initialement destinée à des applications d'impression 3D. Le tout est pilotable via un écran tactile modifié pour mes besoins, avec des drivers que j'avais en stock ainsi q'une alimentation 12V.
+Pour piloter l’ensemble, j’ai adapté une **carte MKS DLC32** aux besoins spécifiques de la machine. Le système est pilotable depuis un écran tactile configuré pour mon usage, avec des drivers que j’avais déjà en stock ainsi qu’une alimentation 12 V.
 
 Le projet mêle ainsi plusieurs domaines que j’aime faire dialoguer :
 
@@ -89,7 +87,7 @@ Plutôt que de chercher une solution entièrement prête à l’emploi, j’ai a
 <a href="{{ '/assets/img/maker/machine_atelier/controleur.jpg' | relative_url }}" target="_blank">
   <img
     src="{{ '/assets/img/maker/machine_atelier/controleur.jpg' | relative_url }}"
-    alt="Carte et écran controllant la machine"
+    alt="Carte de contrôle et écran tactile de la machine"
     class="project-image"
   />
 </a>
@@ -98,41 +96,44 @@ Plutôt que de chercher une solution entièrement prête à l’emploi, j’ai a
 
 ## Motorisation de la scie
 
-Pour la motorisation de la scie sous table j'ai préféré utilisé un **moteur à induction** plutôt qu'un **moteur universel** essentiellement pour réduire les nuisances sonores. Ici, l'installation est sur-mesure sur la carcasse d'une vieille scie sous table.
+Pour la motorisation de la scie sous table, j’ai préféré utiliser un **moteur à induction** plutôt qu’un **moteur universel**, principalement afin de réduire les nuisances sonores.
+
+L’installation a été réalisée sur mesure à partir de la carcasse d’une ancienne scie sous table.
 
 <a href="{{ '/assets/img/maker/machine_atelier/moteurac.jpg' | relative_url }}" target="_blank">
   <img
     src="{{ '/assets/img/maker/machine_atelier/moteurac.jpg' | relative_url }}"
-    alt="Moteur induction, moins de bruit"
+    alt="Motorisation à induction de la scie sous table"
     class="project-image"
   />
 </a>
-
-
 
 ---
 
 ## Une machine pensée comme un prototype évolutif
 
-Le projet a beaucoup évolué au fil des essais. Certaines solutions ont fonctionné immédiatement, d’autres ont nécessité plusieurs versions, modifications de pièces ou changements de conception.
+Le projet a beaucoup évolué au fil des essais. Certaines solutions ont fonctionné immédiatement, d’autres ont nécessité plusieurs versions, des modifications de pièces ou des changements de conception.
 
 ---
 
 ## Technologies & techniques
 
 **CAO**
+
 Fusion 360
 
 **Fabrication**
-Impression 3D · Travail du bois · Profilés aluminium · Usinage et assemblage
+
+Impression 3D · Travail du bois · Profilés aluminium · CNC · Usinage et assemblage
 
 **Mécanique**
-NEMA 17 · HGR15 · SBR12 · transmissions · axes · guidages linéaires · fins de course
+
+NEMA 17 · HGR20 · SBR12 · Transmissions · Axes · Guidages linéaires · Fins de course
 
 **Électronique**
-MKS DLC32 · moteurs pas à pas · drivers · capteurs · câblage · alimentation
+
+MKS DLC32 · Moteurs pas à pas · Drivers · Capteurs · Câblage · Alimentation
 
 **Programmation / contrôle**
-Configuration et adaptation du système de commande
 
----
+Configuration et adaptation du système de commande
